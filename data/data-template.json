@@ -1,0 +1,432 @@
+{
+  "reportId": 148646464646,
+  "brandId": "F4A35A9D-A0EB-4267-86F1-FCA8CF864F2E",
+  "summary": {
+    "brandName": {
+      "key": "Brand Name",
+      "value": "Munk Pack"
+    },
+    "campaignName": {
+      "key": "Campaign Name",
+      "value": "Chewy Keto Granola Bar Snack"
+    },
+    "productName": {
+      "key": "Product Name",
+      "value": "Coconut Cocoa Chip Keto Granola Bar + Website 20% discount"
+    },
+    "startDate": {
+      "key": "Start Date",
+      "value": "02/03/22"
+    },
+    "endDate": {
+      "key": "End Date",
+      "value": "04/15/22"
+    },
+    "totalSample": {
+      "key": "Total Sample",
+      "value": 9409
+    }
+  },
+  "charts": [
+    {
+      "id": 6548686465464,
+      "title": "Gender",
+      "order": "1",
+      "class": "col-lg-4",
+      "chartType": "bar",
+      "options": {
+        "grid": {
+          "show": false,
+          "containLabel": true
+        },
+        "tooltip": {
+          "trigger": "axis",
+          "confine": true,
+          "valueFormatter": "(value) => value + '%'",
+          "axisPointer": {
+            "type": "shadow",
+            "color": "rgba(150,150,150, 0.3)"
+          }
+        },
+        "yAxis": [
+          {
+            "offset": 75,
+            "type": "category",
+            "data": ["Non-binary", "Male", "Female"],
+            "axisLabel": {
+              "margin": 40,
+              "color": "#363636",
+              "align": "left"
+            },
+            "splitLine": {
+              "show": false
+            },
+            "axisLine": {
+              "show": false
+            },
+            "axisTick": {
+              "show": false
+            }
+          },
+          {
+            "offset": 55,
+            "type": "category",
+            "data": ["0.78%", "12.7%", "86.51%"],
+            "axisLabel": {
+              "margin": 18,
+              "padding": 10,
+              "color": "#363636",
+              "align": "right"
+            },
+            "splitLine": {
+              "show": false
+            },
+            "axisLine": {
+              "show": false
+            },
+            "axisTick": {
+              "show": false
+            }
+          }
+        ],
+        "xAxis": {
+          "type": "value",
+          "axisLabel": {
+            "show": false,
+            "color": "#363636",
+            "formatter": "{value}%"
+          },
+          "splitLine": {
+            "show": false
+          }
+        },
+        "series": [
+          {
+            "data": [
+              {
+                "value": 0.78,
+                "itemStyle": {
+                  "color": "#db41b2"
+                }
+              },
+              {
+                "value": 12.7,
+                "itemStyle": {
+                  "color": "#0e47c0"
+                }
+              },
+              {
+                "value": 86.51,
+                "itemStyle": {
+                  "color": "#ffa1aa"
+                }
+              }
+            ],
+            "showBackground": true,
+            "backgroundStyle": {
+              "color": "rgba(238, 238, 238)",
+              "borderRadius": [0, 10, 10, 0]
+            },
+            "type": "bar",
+            "barCategoryGap": "50%",
+            "itemStyle": {
+              "emphasis": {
+                "barBorderRadius": [10, 10]
+              },
+              "normal": {
+                "barBorderRadius": [10, 10, 10, 10]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 6148386462164,
+      "title": "Age",
+      "order": "2",
+      "class": "col-lg-4",
+      "options": {
+        "title": {
+          "show": false
+        },
+        "tooltip": {
+          "trigger": "item",
+          "valueFormatter": "(value) => value + '%'"
+        },
+        "legend": {
+          "type": "scroll",
+          "orient": "vertical",
+          "x": "left",
+          "top": "middle"
+        },
+        "series": [
+          {
+            "type": "pie",
+            "radius": ["40%", "70%"],
+            "avoidLabelOverlap": false,
+            "itemStyle": {
+              "borderRadius": 3,
+              "borderColor": "#fff",
+              "borderWidth": 0
+            },
+            "label": {
+              "show": false,
+              "position": "center"
+            },
+            "emphasis": {
+              "label": {
+                "show": false,
+                "fontSize": "40",
+                "fontWeight": "bold"
+              }
+            },
+            "labelLine": {
+              "show": false
+            },
+            "data": [
+              { "value": 38, "name": "25-35 yrs" },
+              { "value": 34, "name": "35-45 yrs" },
+              { "value": 17, "name": "45-55 yrs" },
+              { "value": 8, "name": "55-65 yrs" },
+              { "value": 2, "name": "<25 yrs" },
+              { "value": 1, "name": ">65 yrs" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 5148387462169,
+      "title": "Diet",
+      "order": "4",
+      "class": "col-lg-4",
+      "options": {
+        "grid": {
+          "show": false,
+          "containLabel": true
+        },
+        "tooltip": {
+          "trigger": "axis",
+          "confine": true,
+          "valueFormatter": "(value) => value + '%'",
+          "axisPointer": {
+            "type": "shadow",
+            "color": "rgba(150,150,150, 0.3)"
+          }
+        },
+        "yAxis": [
+          {
+            "offset": 15,
+            "type": "category",
+            "data": ["Keto"],
+            "axisLabel": {
+              "margin": 40,
+              "color": "#363636",
+              "align": "left"
+            },
+            "splitLine": {
+              "show": false
+            },
+            "axisLine": {
+              "show": false
+            },
+            "axisTick": {
+              "show": false
+            }
+          },
+          {
+            "offset": 15,
+            "type": "category",
+            "data": ["78%"],
+            "axisLabel": {
+              "margin": 40,
+              "padding": 10,
+              "color": "#363636",
+              "align": "right"
+            },
+            "splitLine": {
+              "show": false
+            },
+            "axisLine": {
+              "show": false
+            },
+            "axisTick": {
+              "show": false
+            }
+          }
+        ],
+        "xAxis": {
+          "type": "value",
+          "max": 100,
+          "axisLabel": {
+            "show": false,
+            "color": "#363636",
+            "formatter": "{value}%"
+          },
+          "splitLine": {
+            "show": false
+          }
+        },
+        "series": [
+          {
+            "data": [
+              {
+                "value": 78,
+                "itemStyle": {
+                  "color": "#9836ff"
+                }
+              }
+            ],
+            "showBackground": true,
+            "backgroundStyle": {
+              "color": "rgba(238, 238, 238)",
+              "borderRadius": [0, 10, 10, 0]
+            },
+            "type": "bar",
+            "barCategoryGap": "50%",
+            "itemStyle": {
+              "emphasis": {
+                "barBorderRadius": [10, 10]
+              },
+              "normal": {
+                "barBorderRadius": [10, 10, 10, 10]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 5148387462169,
+      "title": "Users Distribution",
+      "order": "3",
+      "class": "col-lg-4",
+      "options": {
+        "grid": {
+          "show": false,
+          "containLabel": true
+        },
+        "legend": {
+          "y": "bottom",
+          "data": [
+            {
+              "name": "Acquisition",
+              "icon": "circle",
+              "itemStyle": {
+                "color": "#9836ff"
+              }
+            },
+            {
+              "name": "Activations",
+              "icon": "circle",
+              "itemStyle": {
+                "color": "#21c598"
+              }
+            }
+          ]
+        },
+        "tooltip": {
+          "show": false,
+          "trigger": "axis",
+          "confine": true
+        },
+        "yAxis": [
+          {
+            "offset": 0,
+            "show": false,
+            "type": "category",
+            "data": [""],
+            "axisLabel": {
+              "margin": 0,
+              "color": "#363636"
+            },
+            "splitLine": {
+              "show": false
+            },
+            "axisLine": {
+              "show": false
+            },
+            "axisTick": {
+              "show": false
+            }
+          }
+        ],
+        "xAxis": {
+          "type": "value",
+          "max": 100,
+          "axisLabel": {
+            "show": false,
+            "color": "#363636",
+            "formatter": "{value}%"
+          },
+          "splitLine": {
+            "show": false
+          }
+        },
+        "series": [
+          {
+            "name": "Acquisition",
+            "type": "bar",
+            "stack": "total",
+            "label": {
+              "show": true,
+              "formatter": "{c}%",
+              "offset": [0, -40],
+              "color": "#000000"
+            },
+            "emphasis": {
+              "focus": "series"
+            },
+            "data": [
+              {
+                "value": 79,
+                "itemStyle": {
+                  "color": "#9836ff"
+                }
+              }
+            ],
+            "itemStyle": {
+              "emphasis": {
+                "barBorderRadius": [10, 10]
+              },
+              "normal": {
+                "barBorderRadius": [10, 0, 0, 10]
+              }
+            }
+          },
+          {
+            "name": "Activations",
+            "type": "bar",
+            "stack": "total",
+            "label": {
+              "show": true,
+              "formatter": "{c}%",
+              "offset": [0, -40],
+              "color": "#000000"
+            },
+            "emphasis": {
+              "focus": "series"
+            },
+            "data": [
+              {
+                "value": 21,
+                "itemStyle": {
+                  "color": "#21c598"
+                }
+              }
+            ],
+            "itemStyle": {
+              "emphasis": {
+                "barBorderRadius": [10, 10]
+              },
+              "normal": {
+                "barBorderRadius": [0, 10, 10, 0]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
