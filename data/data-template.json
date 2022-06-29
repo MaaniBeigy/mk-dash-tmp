@@ -32,7 +32,7 @@
       "id": 6548686465464,
       "title": "Gender",
       "order": "1",
-      "class": "col-lg-4",
+      "class": "col-md-4",
       "chartType": "bar",
       "options": {
         "grid": {
@@ -144,7 +144,7 @@
       "id": 6148386462164,
       "title": "Age",
       "order": "2",
-      "class": "col-lg-4",
+      "class": "col-md-4",
       "options": {
         "title": {
           "show": false
@@ -198,7 +198,7 @@
       "id": 5148387462169,
       "title": "Diet",
       "order": "4",
-      "class": "col-lg-4",
+      "class": "col-md-4",
       "options": {
         "grid": {
           "show": false,
@@ -298,7 +298,7 @@
       "id": 5148387462169,
       "title": "Users Distribution",
       "order": "3",
-      "class": "col-lg-4",
+      "class": "col-md-4",
       "options": {
         "grid": {
           "show": false,
