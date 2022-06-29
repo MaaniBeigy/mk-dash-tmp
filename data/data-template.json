@@ -42,7 +42,6 @@
         "tooltip": {
           "trigger": "axis",
           "confine": true,
-          "valueFormatter": "(value) => value + '%'",
           "axisPointer": {
             "type": "shadow",
             "color": "rgba(150,150,150, 0.3)"
@@ -151,8 +150,7 @@
           "show": false
         },
         "tooltip": {
-          "trigger": "item",
-          "valueFormatter": "(value) => value + '%'"
+          "trigger": "item"
         },
         "legend": {
           "type": "scroll",
@@ -209,7 +207,6 @@
         "tooltip": {
           "trigger": "axis",
           "confine": true,
-          "valueFormatter": "(value) => value + '%'",
           "axisPointer": {
             "type": "shadow",
             "color": "rgba(150,150,150, 0.3)"
