@@ -1,0 +1,163 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=bar-data-color&lang=js
+-->
+<!DOCTYPE html>
+<html lang="en"
+      style="height: 100%">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container"
+         style="height: 100%"></div>
+
+
+    <script type="text/javascript"
+            src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+    <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/extension/dataTool.min.js"></script>
+  -->
+    <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+    <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+    <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+    <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/extension/bmap.min.js"></script>
+  -->
+
+    <script type="text/javascript">
+        var dom = document.getElementById('container');
+        var myChart = echarts.init(dom, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app = {};
+
+        var option;
+        // 290 * 178
+        option = {
+            grid: {
+                show: false,
+                containLabel: true,
+            },
+            tooltip: {
+                trigger: 'axis',
+                confine: true,
+                valueFormatter: (value) => value + '%',
+                axisPointer: {
+                    type: 'shadow',
+                    color: 'rgba(150,150,150, 0.3)',
+                },
+            },
+            yAxis: [
+                {
+                    offset: 75,
+                    type: 'category',
+                    data: ['Non-binary', 'Male', 'Female'],
+                    axisLabel: {
+                        margin: 40,
+                        color: '#363636',
+                        align: "left",
+                    },
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: false
+                    },
+                    axisTick: {
+                        show: false
+                    }
+                },
+                {
+                    offset: 55,
+                    type : 'category',
+                    data : ["0.78%", "12.7%", "86.51%"],
+                    axisLabel: {
+                        margin: 18,
+                        padding: 10,
+                        color: '#363636',
+                        align: "right",
+                    },
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: false
+                    },
+                    axisTick: {
+                        show: false
+                    }
+                }
+            ],
+            xAxis: {
+                type: 'value',
+                axisLabel: {
+                    show: false,
+                    color: '#363636',
+                    formatter: "{value}%"
+                },
+                splitLine: {
+                    show: false
+                },
+                
+            },
+            series: [
+                {
+                    data: [
+                        {
+                            value: 0.78,
+                            itemStyle: {
+                                color: '#db41b2'
+                            },
+                        },
+                        {
+                            value: 12.7,
+                            itemStyle: {
+                                color: '#0e47c0'
+                            },
+                        },
+                        {
+                            value: 86.51,
+                            itemStyle: {
+                                color: '#ffa1aa'
+                            },
+                        },
+                    ],
+                    showBackground: true,
+                    backgroundStyle: {
+                        color: 'rgba(238, 238, 238)',
+                        borderRadius: [0, 10, 10, 0]
+                    },
+                    type: 'bar',
+                    barCategoryGap: '50%',
+                    itemStyle: {
+                        emphasis: {
+                            barBorderRadius: [10, 10]
+                        },
+                        normal: {
+                            barBorderRadius: [10, 10, 10, 10]
+                        }
+                    }
+                }
+            ]
+        };
+
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+
+        window.addEventListener('resize', myChart.resize);
+    </script>
+</body>
+
+</html>
