@@ -33,7 +33,7 @@
     {
       "id": 6548686465464,
       "title": "Gender",
-      "order": "1",
+      "order": "2",
       "class": "col-md-4",
       "chartType": "bar",
       "options": {
@@ -145,7 +145,7 @@
     {
       "id": 6148386462164,
       "title": "Age",
-      "order": "2",
+      "order": "3",
       "class": "col-md-4",
       "options": {
         "title": {
@@ -299,7 +299,7 @@
     {
       "id": 5148387462169,
       "title": "Users Distribution",
-      "order": "3",
+      "order": "5",
       "class": "col-md-4",
       "options": {
         "grid": {
