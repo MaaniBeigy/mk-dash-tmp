@@ -175,6 +175,9 @@
       "order": "2",
       "class": "col-md-4",
       "options": {
+        "title": {
+            "subtext": "NPS"
+        },
         "grid": {
           "show": false,
           "top": 30,

@@ -15,6 +15,9 @@ option = {
         right: "5%",
         containLabel: true,
     },
+    title: {
+        subtext: "NPS"
+    },
     tooltip: {
         show: false,
     },
