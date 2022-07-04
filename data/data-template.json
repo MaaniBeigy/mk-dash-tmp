@@ -242,7 +242,6 @@
               "borderRadius": [0, 10, 10, 0]
             },
             "type": "bar",
-            "barCategoryGap": "50%",
             "barMaxWidth": "15%",
             "itemStyle": {
               "emphasis": {
