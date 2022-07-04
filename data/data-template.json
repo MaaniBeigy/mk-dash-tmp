@@ -268,7 +268,7 @@
         },
         "yAxis": [
           {
-            "offset": 75,
+            "offset": 95,
             "type": "category",
             "data": ["Non-binary", "Male", "Female"],
             "axisLabel": {
