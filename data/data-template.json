@@ -256,6 +256,8 @@
           "show": false,
           "top": 30,
           "bottom": 30,
+          "left": "5%",
+          "right": "5%",
           "containLabel": true
         },
         "tooltip": {

@@ -12,6 +12,8 @@ option = {
         show: false,
         top: 30,
         bottom: 30,
+        left: "5%",
+        right: "5%",
         containLabel: true,
     },
     tooltip: {
@@ -25,7 +27,7 @@ option = {
     },
     yAxis: [
         {
-            offset: 55,
+            offset: 65,
             type: "category",
             data: ["Non-binary", "Male", "Female"],
             axisLabel: {
