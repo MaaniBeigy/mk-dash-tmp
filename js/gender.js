@@ -10,6 +10,8 @@ var option;
 option = {
     grid: {
         show: false,
+        top: 0,
+        bottom: 0,
         containLabel: true,
     },
     tooltip: {
@@ -27,7 +29,7 @@ option = {
             type: "category",
             data: ["Non-binary", "Male", "Female"],
             axisLabel: {
-                margin: 40,
+                margin: 10,
                 color: "#363636",
                 align: "left",
             },

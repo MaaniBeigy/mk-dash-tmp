@@ -254,6 +254,8 @@
       "options": {
         "grid": {
           "show": false,
+          "top": 0,
+          "bottom": 0,
           "containLabel": true
         },
         "tooltip": {
