@@ -25,7 +25,7 @@ option = {
     },
     yAxis: [
         {
-            offset: 75,
+            offset: 55,
             type: "category",
             data: ["Non-binary", "Male", "Female"],
             axisLabel: {
