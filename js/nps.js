@@ -69,7 +69,7 @@ option = {
             label: {
                 show: true,
                 color: "#545454",
-                offset: [10, -30],
+                offset: [10, -25],
                 position: "insideRight",
             },
             showBackground: true,

@@ -86,7 +86,7 @@ option = {
             label: {
                 show: true,
                 formatter: "{c}%",
-                offset: [0, -40],
+                offset: [0, -25],
                 color: "#000000"
 
             },
@@ -117,7 +117,7 @@ option = {
             label: {
                 show: true,
                 formatter: "{c}%",
-                offset: [0, -40],
+                offset: [0, -25],
                 color: "#000000"
             },
             emphasis: {
