@@ -176,7 +176,7 @@
       "class": "col-md-4",
       "options": {
         "title": {
-            "subtext": "NPS"
+          "subtext": "NPS"
         },
         "grid": {
           "show": false,
@@ -388,10 +388,12 @@
           "trigger": "item"
         },
         "legend": {
-          "type": "scroll",
-          "orient": "vertical",
-          "x": "left",
-          "top": "middle"
+            "type": "scroll",
+            "orient": "vertical",
+            "x": "left",
+            "top": "middle",
+            "icon": "circle",
+            "padding": 2
         },
         "series": [
           {

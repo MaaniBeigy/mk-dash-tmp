@@ -8,6 +8,14 @@ var app = {};
 var option;
 
 option = {
+    grid: {
+        show: false,
+        top: 5,
+        bottom: 5,
+        left: "5%",
+        right: "5%",
+        containLabel: true,
+    },
     title: {
         show: false,
     },
@@ -20,16 +28,19 @@ option = {
         orient: "vertical",
         x: "left",
         top: "middle",
+        icon: 'circle',
+        padding: 2
     },
     series: [
         {
             type: "pie",
             radius: ["40%", "70%"],
             avoidLabelOverlap: false,
+            left: "25%",
             itemStyle: {
-                borderRadius: 3,
+                borderRadius: 2,
                 borderColor: "#fff",
-                borderWidth: 0,
+                borderWidth: 1,
             },
             label: {
                 show: false,
