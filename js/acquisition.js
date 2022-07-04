@@ -10,6 +10,10 @@ var option;
 option = {
     grid: {
         show: false,
+        top: 30,
+        bottom: 30,
+        left: "5%",
+        right: "5%",
         containLabel: true,
     },
     legend: {
@@ -77,6 +81,7 @@ option = {
         {
             name: 'Acquisition',
             type: 'bar',
+            barMaxWidth: "20%",
             stack: 'total',
             label: {
                 show: true,

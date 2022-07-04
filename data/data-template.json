@@ -106,6 +106,7 @@
           {
             "name": "Acquisition",
             "type": "bar",
+            "barMaxWidth": "20%",
             "stack": "total",
             "label": {
               "show": true,
