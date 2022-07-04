@@ -254,8 +254,8 @@
       "options": {
         "grid": {
           "show": false,
-          "top": 0,
-          "bottom": 0,
+          "top": 5,
+          "bottom": 5,
           "containLabel": true
         },
         "tooltip": {
@@ -272,7 +272,7 @@
             "type": "category",
             "data": ["Non-binary", "Male", "Female"],
             "axisLabel": {
-              "margin": 40,
+              "margin": 20,
               "color": "#545454",
               "align": "left"
             },
