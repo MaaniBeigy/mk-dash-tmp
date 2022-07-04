@@ -516,7 +516,7 @@
     {
       "chartType": "map-chart",
       "class": "col-md-12",
-      "mapDataUrl": "https://cdn.peekage.com/e-chart/usa.json",
+      "mapDataUrl": "https://raw.githubusercontent.com/MaaniBeigy/mk-dash-tmp/main/data/USA.json",
       "title": "Title",
       "id": "",
       "mapRange": {
