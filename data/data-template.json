@@ -289,7 +289,7 @@
             }
           },
           {
-            "offset": 55,
+            "offset": 35,
             "type": "category",
             "data": ["6%", "23%", "71%"],
             "axisLabel": {

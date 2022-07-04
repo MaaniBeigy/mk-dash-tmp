@@ -46,9 +46,9 @@ option = {
             },
         },
         {
-            offset: 55,
+            offset: 35,
             type: "category",
-            data: ["0.78%", "12.7%", "86.51%"],
+            data: ["6%", "23%", "71%"],
             axisLabel: {
                 margin: 18,
                 padding: 10,
@@ -81,19 +81,19 @@ option = {
         {
             data: [
                 {
-                    value: 0.78,
+                    value: 6,
                     itemStyle: {
                         color: "#db41b2",
                     },
                 },
                 {
-                    value: 12.7,
+                    value: 23,
                     itemStyle: {
                         color: "#0e47c0",
                     },
                 },
                 {
-                    value: 86.51,
+                    value: 71,
                     itemStyle: {
                         color: "#ffa1aa",
                     },
