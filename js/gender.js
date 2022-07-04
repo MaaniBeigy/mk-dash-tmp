@@ -51,7 +51,7 @@ option = {
             data: ["6%", "23%", "71%"],
             axisLabel: {
                 margin: 18,
-                padding: 10,
+                padding: 5,
                 color: "#363636",
                 align: "right",
             },
