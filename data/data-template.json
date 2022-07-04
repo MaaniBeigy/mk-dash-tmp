@@ -514,7 +514,7 @@
       }
     },
     {
-      "chartType": "mapChart",
+      "chartType": "map-chart",
       "class": "col-md-12",
       "mapDataUrl": "https://cdn.peekage.com/e-chart/usa.json",
       "title": "Title",
