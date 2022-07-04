@@ -393,7 +393,8 @@
             "x": "left",
             "top": "middle",
             "icon": "circle",
-            "padding": 2
+            "padding": 2,
+            "itemGap": 5
         },
         "series": [
           {

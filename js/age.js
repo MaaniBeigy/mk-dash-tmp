@@ -29,7 +29,8 @@ option = {
         x: "left",
         top: "middle",
         icon: 'circle',
-        padding: 2
+        padding: 0,
+        itemGap: 5
     },
     series: [
         {
