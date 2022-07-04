@@ -239,6 +239,7 @@
             },
             "type": "bar",
             "barCategoryGap": "50%",
+            "barMaxWidth": "15%",
             "itemStyle": {
               "emphasis": {
                 "barBorderRadius": [10, 10]
