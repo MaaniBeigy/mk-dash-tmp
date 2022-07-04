@@ -33,6 +33,7 @@
     {
       "id": 5148387462169,
       "title": "Users Distribution",
+      "chartType": "bar",
       "order": "1",
       "class": "col-md-4",
       "options": {
@@ -164,6 +165,7 @@
     {
       "id": 5148387462169,
       "title": "Product Recommendation",
+      "chartType": "bar",
       "order": "2",
       "class": "col-md-4",
       "options": {
@@ -358,6 +360,7 @@
     {
       "id": 6148386462164,
       "title": "Age",
+      "chartType": "pie",
       "order": "4",
       "class": "col-md-4",
       "options": {
@@ -414,6 +417,7 @@
       "title": "Diet",
       "order": "5",
       "class": "col-md-4",
+      "chartType": "bar",
       "options": {
         "grid": {
           "show": false,
