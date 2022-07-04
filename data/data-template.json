@@ -400,6 +400,7 @@
             "type": "pie",
             "radius": ["40%", "70%"],
             "avoidLabelOverlap": false,
+            "left": "25%",
             "itemStyle": {
               "borderRadius": 3,
               "borderColor": "#fff",
