@@ -571,6 +571,95 @@
       }
     },
     {
+      "id": 1147386462162,
+      "title": "Most liked attributes for your product",
+      "chartType": "pie",
+      "order": "4",
+      "class": "col-md-4",
+      "options": {
+        "title": {
+          "show": false
+        },
+        "tooltip": {
+          "trigger": "item"
+        },
+        "legend": {
+          "type": "scroll",
+          "orient": "vertical",
+          "x": "left",
+          "top": "middle",
+          "icon": "circle",
+          "padding": 2,
+          "itemGap": 5
+        },
+        "series": [
+          {
+            "type": "pie",
+            "radius": ["40%", "70%"],
+            "clockwise": false,
+            "avoidLabelOverlap": false,
+            "left": "25%",
+            "itemStyle": {
+              "borderRadius": 3,
+              "borderColor": "#fff",
+              "borderWidth": 0
+            },
+            "label": {
+              "show": false,
+              "position": "center"
+            },
+            "emphasis": {
+              "label": {
+                "show": false,
+                "fontSize": "40",
+                "fontWeight": "bold"
+              }
+            },
+            "labelLine": {
+              "show": false
+            },
+            "data": [
+              {
+                "value": 44,
+                "name": "Taste",
+                "itemStyle": {
+                  "color": "#E8C1A0"
+                }
+              },
+              {
+                "value": 23,
+                "name": "Variety of flavors",
+                "itemStyle": {
+                  "color": "#61CDBB"
+                }
+              },
+              {
+                "value": 15,
+                "name": "Texture",
+                "itemStyle": {
+                  "color": "#E8A838"
+                }
+              },
+              {
+                "value": 13,
+                "name": "Packaging",
+                "itemStyle": {
+                  "color": "#F1E15B"
+                }
+              },
+              {
+                "value": 5,
+                "name": "Price",
+                "itemStyle": {
+                  "color": "#F47560"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": 5148387462169,
       "title": "Diet",
       "order": "5",
