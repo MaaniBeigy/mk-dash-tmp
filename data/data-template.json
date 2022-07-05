@@ -401,6 +401,7 @@
           {
             "type": "pie",
             "radius": ["40%", "70%"],
+            "clockwise": false,
             "avoidLabelOverlap": false,
             "left": "25%",
             "itemStyle": {
