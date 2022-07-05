@@ -826,7 +826,7 @@
       },
       "options": {
         "title": {
-          "text": "Campaign Claims (%)",
+          "text": "Claims (%)",
           "left": "right"
         },
         "tooltip": {
