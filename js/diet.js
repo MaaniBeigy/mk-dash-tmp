@@ -9,6 +9,10 @@ var option;
 option = {
     grid: {
         show: false,
+        top: 30,
+        bottom: 30,
+        left: "5%",
+        right: "5%",
         containLabel: true,
     },
     tooltip: {
@@ -89,7 +93,7 @@ option = {
                 borderRadius: [0, 10, 10, 0],
             },
             type: "bar",
-            barCategoryGap: "50%",
+            barMaxWidth: "15%",
             itemStyle: {
                 emphasis: {
                     barBorderRadius: [10, 10],
