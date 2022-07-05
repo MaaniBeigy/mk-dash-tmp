@@ -801,116 +801,11 @@
       }
     },
     {
-      "id": 5148387462169,
-      "title": "Diet",
-      "order": "7",
-      "class": "col-md-4",
-      "chartType": "bar",
-      "options": {
-        "grid": {
-          "show": false,
-          "top": 30,
-          "bottom": 30,
-          "left": "5%",
-          "right": "5%",
-          "containLabel": true
-        },
-        "tooltip": {
-          "trigger": "axis",
-          "confine": true,
-          "axisPointer": {
-            "type": "shadow",
-            "color": "rgba(150,150,150, 0.3)"
-          }
-        },
-        "yAxis": [
-          {
-            "offset": 25,
-            "type": "category",
-            "data": ["Keto"],
-            "axisLabel": {
-              "margin": 20,
-              "color": "#545454",
-              "align": "left"
-            },
-            "splitLine": {
-              "show": false
-            },
-            "axisLine": {
-              "show": false
-            },
-            "axisTick": {
-              "show": false
-            }
-          },
-          {
-            "offset": 35,
-            "type": "category",
-            "data": ["78%"],
-            "axisLabel": {
-              "margin": 18,
-              "padding": 5,
-              "color": "#545454",
-              "align": "right"
-            },
-            "splitLine": {
-              "show": false
-            },
-            "axisLine": {
-              "show": false
-            },
-            "axisTick": {
-              "show": false
-            }
-          }
-        ],
-        "xAxis": {
-          "type": "value",
-          "max": 100,
-          "axisLabel": {
-            "show": false,
-            "color": "#545454",
-            "formatter": "{value}%"
-          },
-          "splitLine": {
-            "show": false
-          }
-        },
-        "series": [
-          {
-            "data": [
-              {
-                "value": 78,
-                "itemStyle": {
-                  "color": "#9836ff"
-                }
-              }
-            ],
-            "showBackground": true,
-            "backgroundStyle": {
-              "color": "rgba(238, 238, 238)",
-              "borderRadius": [0, 10, 10, 0]
-            },
-            "type": "bar",
-            "barMaxWidth": "15%",
-            "itemStyle": {
-              "emphasis": {
-                "barBorderRadius": [10, 10]
-              },
-              "normal": {
-                "barBorderRadius": [10, 10, 10, 10]
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
       "chartType": "map-chart",
-      "class": "col-md-12",
+      "class": "col-md-6",
       "mapDataUrl": "https://raw.githubusercontent.com/MaaniBeigy/mk-dash-tmp/main/data/USA.json",
       "title": "Participants geo-location",
-      "order": "9",
+      "order": "8",
       "id": "",
       "mapRange": {
         "Alaska": {
@@ -1187,6 +1082,74 @@
               {
                 "name": "Wyoming",
                 "value": 0.14
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 7147386763162,
+      "title": "Comparison report",
+      "chartType": "funnel",
+      "order": "9",
+      "class": "col-md-6",
+      "options": {
+        "tooltip": {
+          "trigger": "item"
+        },
+        "toolbox": {
+          "show": false,
+          "feature": {
+            "dataView": {
+              "readOnly": false
+            },
+            "restore": {},
+            "saveAsImage": {}
+          }
+        },
+        "legend": {
+          "show": false,
+          "data": ["View", "Claim", "Survey", "Purchase"]
+        },
+        "series": [
+          {
+            "name": "Actual",
+            "type": "funnel",
+            "left": "0%",
+            "width": "100%",
+            "maxSize": "95%",
+            "label": {
+              "position": "inside",
+              "color": "#fff",
+              "formatter": "{b}={c}"
+            },
+            "itemStyle": {
+              "opacity": 1,
+              "borderColor": "#fff",
+              "borderWidth": 3
+            },
+            "emphasis": {
+              "label": {
+                "position": "inside"
+              }
+            },
+            "data": [
+              {
+                "value": 21848,
+                "name": "View"
+              },
+              {
+                "value": 15293,
+                "name": "Claim"
+              },
+              {
+                "value": 14222,
+                "name": "Survey"
+              },
+              {
+                "value": 2627,
+                "name": "Purchase"
               }
             ]
           }

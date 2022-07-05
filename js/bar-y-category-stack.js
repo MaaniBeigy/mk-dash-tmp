@@ -125,7 +125,8 @@ option = {
       stack: "total",
       label: {
         show: true,
-        color: "#fff"
+        color: "#fff",
+        fontWeight: 700
       },
       emphasis: {
         focus: "series"
