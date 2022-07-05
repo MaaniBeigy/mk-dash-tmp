@@ -575,7 +575,7 @@
       "title": "Most liked attributes for your product",
       "chartType": "pie",
       "order": "4",
-      "class": "col-md-4",
+      "class": "col-md-6",
       "options": {
         "title": {
           "show": false
