@@ -827,7 +827,7 @@
       "options": {
         "title": {
           "text": "Claims (%)",
-          "left": "right"
+          "left": "left"
         },
         "tooltip": {
           "trigger": "item",
