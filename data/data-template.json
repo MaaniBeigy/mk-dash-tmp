@@ -560,7 +560,7 @@
       "chartType": "map-chart",
       "class": "col-md-12",
       "mapDataUrl": "https://raw.githubusercontent.com/MaaniBeigy/mk-dash-tmp/main/data/USA.json",
-      "title": "Title",
+      "title": "Participants geo-location",
       "id": "",
       "mapRange": {
         "Alaska": {
