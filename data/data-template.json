@@ -1096,7 +1096,8 @@
       "class": "col-md-6",
       "options": {
         "tooltip": {
-          "trigger": "item"
+          "trigger": "item",
+          "confine": true
         },
         "toolbox": {
           "show": false,
