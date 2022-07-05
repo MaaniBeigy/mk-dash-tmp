@@ -26,11 +26,11 @@ option = {
     },
     yAxis: [
         {
-            offset: 15,
+            offset: 25,
             type: "category",
             data: ["Keto"],
             axisLabel: {
-                margin: 40,
+                margin: 20,
                 color: "#363636",
                 align: "left",
             },
@@ -45,12 +45,12 @@ option = {
             },
         },
         {
-            offset: 15,
+            offset: 35,
             type: "category",
             data: ["78%"],
             axisLabel: {
-                margin: 40,
-                padding: 10,
+                margin: 18,
+                padding: 5,
                 color: "#363636",
                 align: "right",
             },
