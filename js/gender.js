@@ -68,6 +68,7 @@ option = {
     ],
     xAxis: {
         type: "value",
+        max: 100,
         axisLabel: {
             show: false,
             color: "#363636",
