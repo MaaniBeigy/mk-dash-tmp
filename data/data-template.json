@@ -611,7 +611,7 @@
           "calculable": true
         },
         "toolbox": {
-          "show": true,
+          "show": false,
           "left": "left",
           "top": "top",
           "feature": {
