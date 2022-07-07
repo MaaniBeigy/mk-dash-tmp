@@ -1091,7 +1091,7 @@
     {
       "id": 7147386763162,
       "title": "Comparison report",
-      "chartType": "funnel",
+      "chartType": "funnel-chart",
       "order": "9",
       "class": "col-md-6",
       "options": {

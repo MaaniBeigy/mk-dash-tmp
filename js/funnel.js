@@ -12,11 +12,11 @@ option = {
     trigger: "item",
   },
   toolbox: {
-    show: false,
+    show: true,
     feature: {
-      dataView: { readOnly: false },
-      restore: {},
-      saveAsImage: {},
+      dataView: { show: false },
+      restore: { show: false},
+      saveAsImage: {pixelRatio: 2, name: "Funnel"},
     },
   },
   legend: {
